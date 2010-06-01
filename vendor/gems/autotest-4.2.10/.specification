@@ -1,0 +1,80 @@
+--- !ruby/object:Gem::Specification 
+name: autotest
+version: !ruby/object:Gem::Version 
+  version: 4.2.10
+platform: ruby
+authors: 
+- Ryan Davis
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2010-05-10 00:00:00 -07:00
+default_executable: 
+dependencies: []
+
+description: 
+email: 
+executables: 
+- autotest
+- unit_diff
+extensions: []
+
+extra_rdoc_files: 
+- README.markdown
+files: 
+- .autotest
+- .gitignore
+- History.txt
+- README.markdown
+- Rakefile
+- VERSION
+- articles/getting_started_with_autotest.html
+- autotest.gemspec
+- bin/autotest
+- bin/unit_diff
+- example_dot_autotest.rb
+- lib/autotest.rb
+- lib/autotest/autoupdate.rb
+- lib/autotest/once.rb
+- lib/autotest/rcov.rb
+- lib/autotest/restart.rb
+- lib/autotest/timestamp.rb
+- lib/unit_diff.rb
+- test/helper.rb
+- test/test_autotest.rb
+- test/test_autotest_integration.rb
+- test/test_unit_diff.rb
+has_rdoc: true
+homepage: http://github.com/grosser/autotest
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --charset=UTF-8
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: Autotest, without ZenTest
+test_files: 
+- test/test_autotest_integration.rb
+- test/helper.rb
+- test/test_autotest.rb
+- test/test_unit_diff.rb
