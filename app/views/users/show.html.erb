@@ -1,5 +1,7 @@
-<p>
-  <b>Login:</b>
+<%= link_to("Logout", user_session_path, :method => :delete) %>
+
+
+<p class="login">
   <%=h @user.login %>
 </p>
 

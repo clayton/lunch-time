@@ -141,3 +141,927 @@ ActionController::RoutingError (No route matches "/user_session/new" with {:meth
 
 Rendering rescues/layout (not_found)
   [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:16:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+
+NoMethodError (undefined method `require_no_user' for #<UserSessionsController:0x101626950>):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:190:in `visit'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `visit'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `visit'
+  /spec/acceptance/signup_spec.rb:10
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) [v] bin/spec:5
+
+Rendered rescues/_trace (56.4ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:17:44) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 105ms (View: 102, DB: 2) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:18:15) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 16ms (View: 13, DB: 3) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:19:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 105ms (View: 102, DB: 2) | 200 OK [http://www.example.com/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mBEGIN[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:19:50) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 105ms (View: 102, DB: 3) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:19:50) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/user_session]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:21:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 108ms (View: 104, DB: 3) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:21:23) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/user_session]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (30.9ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'ed2ea507fd179862abe1bb313defe139468ecb0394d15812465e08f31b56bd07901edd23eaa5aec1ae305fc2c8ebef24f4605e78bd6e7690e3faf654c5e7d2fa') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'HUKNKnXEn9gvUToBIRIT') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'bbc8464579f226e0ade5a63bdd19118aeea667bcab1988d01f27d00d1f76e03df3b2c3fea7784a9b1394ec1aeb46c21588a1157ad748217cc53ac4f337c9ca4d') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY '56prcD48XINrUYeyeG9u') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('56prcD48XINrUYeyeG9u', NULL, '2010-06-16 01:22:33', 'b09c54ac78502b460cf7de0a5be1fdffb93ac97f076cb34f0224ed28737431fcb62af5ea55c96ec650b45d7485e7b58e86935e162a50e8c35761638bff44d326', 'AJ9yl5fG_ztwuseevzdV', '2010-06-16 01:22:33', 0, NULL, 'QMteq3xDw7dUBKy_qObr', NULL, 'bbc8464579f226e0ade5a63bdd19118aeea667bcab1988d01f27d00d1f76e03df3b2c3fea7784a9b1394ec1aeb46c21588a1157ad748217cc53ac4f337c9ca4d', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:22:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:22:33) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/user_session]
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '9d64aeed5a8d4ee74414748b56184560a9b22eb2552feaa5dd11de973f2ef66b185e7f01676dcd5b8259e8939f54253c6e84d22e2352da3a7837f9fe73fe38e7') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'k8GGC7yAjWaAcr7evTLu') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('k8GGC7yAjWaAcr7evTLu', NULL, '2010-06-16 01:23:12', '726e99fbb29ec36537c937d0531ee8e7e4363b84836220ea2d6439300362263bab86aced1de3684107588cd1b735c0d5612ee13649a713302f61c718065ea85d', 'iTDMN9cj_t0U0Ekc_ExL', '2010-06-16 01:23:12', 0, NULL, 'LmROAujJzYOeDhyqefDd', NULL, '9d64aeed5a8d4ee74414748b56184560a9b22eb2552feaa5dd11de973f2ef66b185e7f01676dcd5b8259e8939f54253c6e84d22e2352da3a7837f9fe73fe38e7', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:23:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 9ms (View: 6, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:23:13) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.example.com/user_session]
+  [4;35;1mSQL (1.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'e33de0bbbc68bef23d65436f4ca7f3afeb1603bd83e45f47f3066e0b009529eb8c11f83b06ddfad44df9b2b7cdc704a26bbc951b42af5b99ee7c7f136429bedc') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'tNgqbnWPxOCB37ouMFFC') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('tNgqbnWPxOCB37ouMFFC', NULL, '2010-06-16 01:23:53', '511565f4dac7fe6087ba6f8a652e36c19dcfbcf47a1fbe53a6a224c3a29fac647edc597641f1cbed7643851bb456c6469f92fca0225098560c2ecc65278c6eb2', '7aGNOG33WiDcIYWOYsmR', '2010-06-16 01:23:53', 0, NULL, 'q0CYi2ZHbXJQ38l2Imaq', NULL, 'e33de0bbbc68bef23d65436f4ca7f3afeb1603bd83e45f47f3066e0b009529eb8c11f83b06ddfad44df9b2b7cdc704a26bbc951b42af5b99ee7c7f136429bedc', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:23:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:23:53) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:23:53', `perishable_token` = '52NAXk0B55MO3UwE5bJ5', `current_login_at` = '2010-06-16 01:23:53', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:23:53' WHERE `id` = 3[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+NoMethodError (undefined method `redirect_back_or_default' for #<UserSessionsController:0x10601e260>):
+  app/controllers/user_sessions_controller.rb:11:in `create'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `post'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:227:in `post'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:209:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:209:in `submit'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:152:in `submit'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:80:in `click'
+  capybara (0.3.7) lib/capybara/session.rb:54:in `click_button'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_button'
+  spec/acceptance/signup_spec.rb:20
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:24:in `run_focussed'
+  /tmp/textmate-command-40799.rb:3
+
+Rendered rescues/_trace (57.4ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (16.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'efdd47fcf061c81af461e1fd9e63232df12985336e484afcabb293df492a2db2c5ffe21060434960da73209c3c1c99d4f5bffb097ee1ed84ee6a0e7aa3056a9a') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'wNqbsgPDnEhjX5gT3VyR') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('wNqbsgPDnEhjX5gT3VyR', NULL, '2010-06-16 01:24:41', '625191a487befb2b3f54e403f1c25585f96e24dfdb0a29e704223791e9339deed948b617c8207fec80698519bbaf686a532a6ecbc5d16ec6b3f3212016209fd5', 'PiY-0C9s4D0FWu-8Yr8A', '2010-06-16 01:24:41', 0, NULL, 'rbqzZLqvXsJWjzXeDtA-', NULL, 'efdd47fcf061c81af461e1fd9e63232df12985336e484afcabb293df492a2db2c5ffe21060434960da73209c3c1c99d4f5bffb097ee1ed84ee6a0e7aa3056a9a', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:24:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:24:41) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:24:41', `perishable_token` = 'mEasoCc3zVGQZbjbTYQl', `current_login_at` = '2010-06-16 01:24:41', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:24:41' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 173ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:24:41) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+
+NoMethodError (undefined method `require_user' for #<UsersController:0x1062771d8>):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `follow_redirect!'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:249:in `follow_redirects!'
+  capybara (0.3.7) lib/capybara/wait_until.rb:13:in `timeout'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:247:in `follow_redirects!'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:210:in `submit'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:152:in `submit'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:80:in `click'
+  capybara (0.3.7) lib/capybara/session.rb:54:in `click_button'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_button'
+  /spec/acceptance/signup_spec.rb:20
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) [v] bin/spec:5
+
+Rendered rescues/_trace (58.3ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (1.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'cccdb0fd6eb0c73533cc740c7dfa46b5fbeb9cc3370b88acc655e04a87bdb7d795a463f613800640afe8eba9022f9e92683398a1d43b79fd22e5ca15a34b785f') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY '9ucNjK5RGCmz_3LbnPGz') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('9ucNjK5RGCmz_3LbnPGz', NULL, '2010-06-16 01:24:57', '9b95127fc81aeb4490b825e47dff64739652a4fb43083b3bff1d5b3143691c57cdb7bba92b657565560b7962efba581265ad043658c8946ceb513eac8b47698f', 'fi2HKRhLUQn9iJBwCPKl', '2010-06-16 01:24:57', 0, NULL, 'handgfULYNxRoyut_rrY', NULL, 'cccdb0fd6eb0c73533cc740c7dfa46b5fbeb9cc3370b88acc655e04a87bdb7d795a463f613800640afe8eba9022f9e92683398a1d43b79fd22e5ca15a34b785f', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:24:57) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:24:58) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:24:58', `perishable_token` = '_ztUfL-BEG0nzX-BP5B8', `current_login_at` = '2010-06-16 01:24:58', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:24:58' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 175ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:24:58) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+Rendering users/show
+
+ActionView::TemplateError (undefined method `login' for nil:NilClass) on line #2 of app/views/users/show.html.erb:
+1: <p class="login">
+2:   <%=h @user.login %>
+3: </p>
+4: 
+5: <p>
+
+    app/views/users/show.html.erb:2
+    vendor/gems/rspec-rails-1.3.2/lib/spec/rails/extensions/action_view/base.rb:27:in `render'
+    (__FORWARDABLE__):3:in `__send__'
+    (__FORWARDABLE__):3:in `follow_redirect!'
+    capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:249:in `follow_redirects!'
+    capybara (0.3.7) lib/capybara/wait_until.rb:13:in `timeout'
+    capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:247:in `follow_redirects!'
+    capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:210:in `submit'
+    capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:152:in `submit'
+    capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:80:in `click'
+    capybara (0.3.7) lib/capybara/session.rb:54:in `click_button'
+    capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_button'
+    /spec/acceptance/signup_spec.rb:20
+    rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `instance_eval'
+    rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `execute'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+    rspec (1.3.0) [v] lib/spec/example/example_methods.rb:37:in `execute'
+    rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:214:in `run_examples'
+    rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `each'
+    rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `run_examples'
+    rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:103:in `run'
+    rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:23:in `run'
+    rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `each'
+    rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `run'
+    rspec (1.3.0) [v] lib/spec/runner/options.rb:152:in `run_examples'
+    rspec (1.3.0) [v] lib/spec/runner/command_line.rb:9:in `run'
+    rspec (1.3.0) [v] bin/spec:5
+
+Rendered rescues/_trace (70.5ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (1.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '99a8beec5bdaefe1fab58ec92f398370ee18cfa8d1c091e81c71d755828415ec29c841583d65738a0b4ab803b280bc2ca61147379bbd0f1c92502bf877c1f8c4') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'jaf3nz5rvIFUWDDDu2Xu') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('jaf3nz5rvIFUWDDDu2Xu', NULL, '2010-06-16 01:27:48', 'd93b73d6048311e71ea1c85a1626c2dc11bba1c71f3ca924c41e6bdea461b79103c05eed713429aec7bd350a218bc51f08496b463449a3d9ebad453ab139c176', 'NZ1p7p1M4vrlfhW0O76S', '2010-06-16 01:27:48', 0, NULL, 'ApjpB5T2K-5vFtEXnTXU', NULL, '99a8beec5bdaefe1fab58ec92f398370ee18cfa8d1c091e81c71d755828415ec29c841583d65738a0b4ab803b280bc2ca61147379bbd0f1c92502bf877c1f8c4', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:27:48) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:27:48) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:27:48', `perishable_token` = 'owNZ5bLtjwRsG1KtxtQb', `current_login_at` = '2010-06-16 01:27:48', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:27:48' WHERE `id` = 2[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 48ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:27:48) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:27:48', `perishable_token` = '04paY3fjxrQBcF6BNJ9V', `last_request_at` = '2010-06-16 01:27:48' WHERE `id` = 2[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 19ms (View: 2, DB: 1) | 200 OK [http://www.example.com/account]
+  [4;35;1mSQL (16.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '2c2c61026d043136a0b0eed3105f3698cd1c7e2921af1101d97088437220c19de3e8dcd71225cf221e1c5da0f8e61a0d716b4f231dbf6e981ba32dce319fbf1c') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'Xtn-OU3YzlaS0fa5TCmw') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('Xtn-OU3YzlaS0fa5TCmw', NULL, '2010-06-16 01:29:08', '896200f647f8740c4362d9c75266e6a66b561a741725b170f468113ef4d7d3f4bf0b3c5890cf061332127ca04f90f0c31a4d0fc45441909601568d012450b4d0', '9S4UsipI559s7Bl24R6l', '2010-06-16 01:29:08', 0, NULL, 'R8vkXfzYucO3I8dssWHv', NULL, '2c2c61026d043136a0b0eed3105f3698cd1c7e2921af1101d97088437220c19de3e8dcd71225cf221e1c5da0f8e61a0d716b4f231dbf6e981ba32dce319fbf1c', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:29:08) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:29:08) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:29:08', `perishable_token` = 'Fx95kXsBVFMMjlXbX6hw', `current_login_at` = '2010-06-16 01:29:08', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:29:08' WHERE `id` = 3[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 49ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:29:08) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '3') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:29:08', `perishable_token` = 'sRmreTcP1hQxjuDdYJFU', `last_request_at` = '2010-06-16 01:29:08' WHERE `id` = 3[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 20ms (View: 2, DB: 1) | 200 OK [http://www.example.com/account]
+  [4;35;1mSQL (1.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'ba4851e73a93fe4c03f1ef7f85a27d547fbfb8aa26e281322bdbc1c758023fa4954daa752985c944f411129edae006410ed4bec1e1f6f0cd365d88ce36096d1f') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'G14wgqqiIHeZb3Ri6DM7') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('G14wgqqiIHeZb3Ri6DM7', NULL, '2010-06-16 01:38:36', '7750706de0e25ab45997d0525c448107be367302bcb584a7e6a59aec1b16943e804becd8fd12d7ea42600c4201b3ca24d075ab4785b7a0a19309cdb93615e9bd', '5w42nd4kri2hdt8jY111', '2010-06-16 01:38:36', 0, NULL, '4MbwFjHITl8iquILjMFM', NULL, 'ba4851e73a93fe4c03f1ef7f85a27d547fbfb8aa26e281322bdbc1c758023fa4954daa752985c944f411129edae006410ed4bec1e1f6f0cd365d88ce36096d1f', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-06-15 18:38:36) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering users/new
+Rendered users/_form (3.4ms)
+Completed in 11ms (View: 8, DB: 5) | 200 OK [http://www.example.com/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-15 18:38:36) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>"Andrew", "email"=>"andrew.bowerman@integrumtech.com"}}
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'andrew.bowerman@integrumtech.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'andrew') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '3d46b2eae25bb1c1aef98f8eaf4e2f9640e82665ad153a1ab2220a014939b2f3e35dd69cd66675818276a35521a6ab29b533dbdca0c02623eba15cc1b489576d') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY '4i7jhsb48iR1X1k6Wrc-') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('4i7jhsb48iR1X1k6Wrc-', '2010-06-16 01:38:36', '2010-06-16 01:38:36', 'b176c98fd849a4d1671f4cff68a876ec11ee1b8b9e097889167900a60c99d93819e6f2292dfafe6e75b34a511068ee081b769278e61cacd9394525acfea671f7', 'RcZXL-x5QpEytUdefjld', '2010-06-16 01:38:36', 0, '127.0.0.1', 'v-RqC1thmgke6VRxdIMy', '2010-06-16 01:38:36', '3d46b2eae25bb1c1aef98f8eaf4e2f9640e82665ad153a1ab2220a014939b2f3e35dd69cd66675818276a35521a6ab29b533dbdca0c02623eba15cc1b489576d', 1, NULL, 'Andrew', NULL, 'andrew.bowerman@integrumtech.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 55ms (DB: 2) | 302 Found [http://www.example.com/account]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:38:36) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '3d46b2eae25bb1c1aef98f8eaf4e2f9640e82665ad153a1ab2220a014939b2f3e35dd69cd66675818276a35521a6ab29b533dbdca0c02623eba15cc1b489576d') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-06-16 01:38:36', `perishable_token` = 'IlnDARX4b3qYh2psG4Iw', `last_request_at` = '2010-06-16 01:38:36' WHERE `id` = 5[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://www.example.com/account]
+  [4;36;1mSQL (56.9ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '82ae732c5fb02140160a04574c022ce15220e96c166ebe86ce817cf808119fc520b1530707538daf90670050662483e1f2e9a177e4cf4c38de464d8ef6568412') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'wjTh7qNgXxpe9qsWvQ-9') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('wjTh7qNgXxpe9qsWvQ-9', NULL, '2010-06-16 01:38:43', 'e21f97be42a830e52b61514854f34ed657cbc7d048b58d2a4b7b168b62bcbbb239648d04e93bea16e5fe86174735939d316c22d1f25fb78e0f89698c4162d21b', 'XXi4FFl_r8nvanSE1V2u', '2010-06-16 01:38:43', 0, NULL, 'd5GACqgN2UxRuMHG71QJ', NULL, '82ae732c5fb02140160a04574c022ce15220e96c166ebe86ce817cf808119fc520b1530707538daf90670050662483e1f2e9a177e4cf4c38de464d8ef6568412', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:38:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:38:43) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:38:43', `perishable_token` = 'FLddFFFaAg7aCH62JkMg', `current_login_at` = '2010-06-16 01:38:43', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:38:43' WHERE `id` = 6[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 49ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:38:43) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '6') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:38:43', `perishable_token` = 'bC17LNQK_KNMV_NIyLgC', `last_request_at` = '2010-06-16 01:38:43' WHERE `id` = 6[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 21ms (View: 4, DB: 1) | 200 OK [http://www.example.com/account]
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2010-06-15 18:38:43) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:78:in `click'
+  capybara (0.3.7) lib/capybara/session.rb:49:in `click_link'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_link'
+  spec/acceptance/signup_spec.rb:32
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:24:in `run_focussed'
+  /tmp/textmate-command-41074.rb:3
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'e93d6ee8a349a2bba8657c5217494921fab18259c377821db90e4b72758c39527ecbd8a9821f8822a6635d8a005b3912c180a91246abecfb691c61f14219ab52') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'nuAjRlNT3skJA0z6bqWc') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('nuAjRlNT3skJA0z6bqWc', NULL, '2010-06-16 01:39:14', 'cf527df95a05e04a8a4046e7a5b11ecb48089a7e9d4eae738c71506bd0df560620f3633bb69aa9fea78eaad4c2b28b0cbe45fdbcf43182fb4e3fcc02b52ff406', 'rC8fjidfp44zDpOSRn-n', '2010-06-16 01:39:14', 0, NULL, 'rmri1ef9an-9a7JsDR2G', NULL, 'e93d6ee8a349a2bba8657c5217494921fab18259c377821db90e4b72758c39527ecbd8a9821f8822a6635d8a005b3912c180a91246abecfb691c61f14219ab52', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:39:15) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:39:15) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:39:15', `perishable_token` = 'JU5jvmW-gn5J6PnvydCG', `current_login_at` = '2010-06-16 01:39:15', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:39:15' WHERE `id` = 7[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 47ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:39:15) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '7') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:39:15', `perishable_token` = '0YwF1MfweZP7rLmH_DbH', `last_request_at` = '2010-06-16 01:39:15' WHERE `id` = 7[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 28ms (View: 4, DB: 1) | 200 OK [http://www.example.com/account]
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2010-06-15 18:39:15) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:78:in `click'
+  capybara (0.3.7) lib/capybara/session.rb:49:in `click_link'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_link'
+  spec/acceptance/signup_spec.rb:32
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:24:in `run_focussed'
+  /tmp/textmate-command-41087.rb:3
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'fe9df2674ed94d42bfa310511be9269218bb74cc284663f787cfd30c9a44837e627d54b270adbc1b218bc7faf155654c87f92d6c27d9600d279f93db484a9178') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'jKTniaoEu-h_uuH6B412') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('jKTniaoEu-h_uuH6B412', NULL, '2010-06-16 01:40:54', '72d48c40812e6ff769c46b0acfd6fe17cc12e7ec5945845e541baef85bfcfd69680b65cae5e224ecc191d4ded11f23554cd6146b87ec312aaa73e19620c540d0', 'SYluwEhHXY42qQGCXlbQ', '2010-06-16 01:40:54', 0, NULL, '9qpozUJH-zH6PGEszRWN', NULL, 'fe9df2674ed94d42bfa310511be9269218bb74cc284663f787cfd30c9a44837e627d54b270adbc1b218bc7faf155654c87f92d6c27d9600d279f93db484a9178', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:40:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:40:54) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:40:54', `perishable_token` = 'flZWGXlY2UuCYLDHDr6t', `current_login_at` = '2010-06-16 01:40:54', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:40:54' WHERE `id` = 8[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 48ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:40:54) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '8') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:40:54', `perishable_token` = 'yqwFzQ14T-NsQ0FppA-4', `last_request_at` = '2010-06-16 01:40:54' WHERE `id` = 8[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 21ms (View: 4, DB: 1) | 200 OK [http://www.example.com/account]
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2010-06-15 18:40:54) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:78:in `click'
+  capybara (0.3.7) lib/capybara/session.rb:49:in `click_link'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_link'
+  spec/acceptance/signup_spec.rb:33
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:24:in `run_focussed'
+  /tmp/textmate-command-41099.rb:3
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY 'e34486dc68fd5e47a29502d9f81eff53767412a0d23b5f40399a86ea080023ba05f5c0f7538dd18016cb3f0a9b95a0bc19fc68036740f910c16b8969b7ff7883') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'F3iy2WhNkrkIwZ3Ws1I-') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('F3iy2WhNkrkIwZ3Ws1I-', NULL, '2010-06-16 01:42:08', '9bb8ceda32b9afc7e88232710cde96566e64120819024a09d9ae1a4e33b23dd9791826cb1bd600600b70a979f0cbfcc915c803434091f25b4ad3b0c767fa0965', 'zIjLeWcm_UGNaQy_ma6-', '2010-06-16 01:42:08', 0, NULL, 'vEhz1ZZjMVD8AA3khl4y', NULL, 'e34486dc68fd5e47a29502d9f81eff53767412a0d23b5f40399a86ea080023ba05f5c0f7538dd18016cb3f0a9b95a0bc19fc68036740f910c16b8969b7ff7883', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:42:09) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 10ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:42:09) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.5ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:42:09', `perishable_token` = 'AYZz6RXJ6MLB-UL0nYSK', `current_login_at` = '2010-06-16 01:42:09', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:42:09' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 180ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:42:09) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:42:09', `perishable_token` = 'gbkqqBUDAvy1dGlIrGNM', `last_request_at` = '2010-06-16 01:42:09' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 21ms (View: 4, DB: 1) | 200 OK [http://www.example.com/account]
+  [4;35;1mSQL (2.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '9d4e847932a860a349b395c8c7485a9bd4e5c86490574ee84dcfbddd0bfab163853117acbc9588c6327a0e4ddd07c2c401be0a78a15ff144d4bdc2b450d95e35') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'QsmBdsizv8zhue_xiVPx') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '1') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('QsmBdsizv8zhue_xiVPx', '2010-06-16 01:42:09', '2010-06-16 01:42:09', '83827cb7dd24bd263e4b811708b9d3103f7d341a387b0f17a9fdd4749490f94279d948b74972abd57ae63c309f39aaa256fb46b3999da01bfd30aea84836e89d', 'XZNcE8VdjEtCgu-Nu18p', '2010-06-16 01:42:09', 0, '127.0.0.1', 'KL2XjcXv0fgmfyJTTWBb', '2010-06-16 01:42:09', '9d4e847932a860a349b395c8c7485a9bd4e5c86490574ee84dcfbddd0bfab163853117acbc9588c6327a0e4ddd07c2c401be0a78a15ff144d4bdc2b450d95e35', 1, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:42:09) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 5ms (View: 4, DB: 5) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:42:09) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-06-16 01:42:09', `perishable_token` = 'SuuuTNVJKJoCPjYvUIyI', `last_login_at` = '2010-06-16 01:42:09', `last_login_ip` = '127.0.0.1', `current_login_at` = '2010-06-16 01:42:09', `login_count` = 2, `last_request_at` = '2010-06-16 01:42:09' WHERE `id` = 2[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 12ms (DB: 2) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:42:09) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-06-16 01:42:09', `perishable_token` = 'plV-YGAyW0KmDRHZEX8V', `last_request_at` = '2010-06-16 01:42:09' WHERE `id` = 2[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://www.example.com/account]
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2010-06-15 18:42:09) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:78:in `click'
+  capybara (0.3.7) lib/capybara/session.rb:49:in `click_link'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_link'
+  /spec/acceptance/signup_spec.rb:32
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) [v] lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) [v] lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) [v] lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) [v] lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) [v] bin/spec:5
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (8.9ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '8f0c24465257fbeedc36344779ab6a387866eff8c8cecec575246412d1e5fd97f41c670b674b71bcccd7c8c02ee4b7c3728609390d4ce3c028a094d122bdfe8c') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'UxEyvk2C3IdzC4DAw2v_') LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 2) LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('UxEyvk2C3IdzC4DAw2v_', '2010-06-16 01:42:09', '2010-06-16 01:42:09', 'd3987f6d55b388e09fabe7ddd4cffa42ed5f730c2c6726969d12f311bc42e3376cc30c36c1c4ffe23a3d99e71bc09bdb785a9e3af18c881709f5de2ad3c24e25', 'Natz608o3R_HiVcZgqUx', '2010-06-16 01:42:09', 0, '127.0.0.1', 'NwbOWrxsIxdr_Un0Wn2d', '2010-06-16 01:42:09', '8f0c24465257fbeedc36344779ab6a387866eff8c8cecec575246412d1e5fd97f41c670b674b71bcccd7c8c02ee4b7c3728609390d4ce3c028a094d122bdfe8c', 1, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-06-15 18:42:09) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering users/new
+Rendered users/_form (3.4ms)
+Completed in 7ms (View: 7, DB: 11) | 200 OK [http://www.example.com/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-06-15 18:42:09) [POST]
+  Parameters: {"commit"=>"Register", "action"=>"create", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "login"=>"Andrew", "email"=>"andrew.bowerman@integrumtech.com"}}
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'andrew.bowerman@integrumtech.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'andrew') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '71d0804dcf84f6d8019b20b9f00742237029dc25f31c3b33ce35c834df4ed3ade08f31933a96e9294bf781cea21ad86369ad9ad97c3cd92491d61afc2645f4ef') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'ta-X9RgvtoLHMWl6mEKn') LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = '2') LIMIT 1[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 2) LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('ta-X9RgvtoLHMWl6mEKn', '2010-06-16 01:42:09', '2010-06-16 01:42:09', '630ea96f8a086a145b75a1ecdfb717b45dee85dcb6197f9189ecada285bbc2adcd1587a8f0638e086e861d76c746c65f96a0bd90490426e0b7f35270d387d899', 'LUnR9zuz4BmRAigpwCbK', '2010-06-16 01:42:09', 0, '127.0.0.1', 'A2lhZGHr094zuzLZS8se', '2010-06-16 01:42:09', '71d0804dcf84f6d8019b20b9f00742237029dc25f31c3b33ce35c834df4ed3ade08f31933a96e9294bf781cea21ad86369ad9ad97c3cd92491d61afc2645f4ef', 1, NULL, 'Andrew', NULL, 'andrew.bowerman@integrumtech.com')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 151ms (DB: 3) | 302 Found [http://www.example.com/account]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:42:09) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`persistence_token` = '71d0804dcf84f6d8019b20b9f00742237029dc25f31c3b33ce35c834df4ed3ade08f31933a96e9294bf781cea21ad86369ad9ad97c3cd92491d61afc2645f4ef') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2010-06-16 01:42:09', `perishable_token` = 'XgEdsiehbaNy9-Nwtcgm', `last_request_at` = '2010-06-16 01:42:09' WHERE `id` = 4[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://www.example.com/account]
+  [4;36;1mSQL (1.2ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mUser Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'clayton@integrumtech.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'clayton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '4c97cfcb3a3b0031f1a226d1dd4a2340a588e8ff7eb1950844ceb5e5be0f8024ffb0cb82a77b7d21645e84743ffa248f793e60b3d5263d46e4ab8e4793c7fc0b') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (`users`.`single_access_token` = BINARY 'hZZfn8l9kk8sFtGEw24C') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO `users` (`single_access_token`, `last_request_at`, `created_at`, `crypted_password`, `perishable_token`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `last_login_ip`, `login`, `last_login_at`, `email`) VALUES('hZZfn8l9kk8sFtGEw24C', NULL, '2010-06-16 01:42:25', 'd1c25355bda9cd978233daa550ef2109b946921da6bfee70ab8c9576a95e17aaef9c1764937adbbd261e3de2f938c79abe5a24f854328c1729d2b6d3f394f0cf', 'jfnbeUTz_OXR1uEwqSH9', '2010-06-16 01:42:25', 0, NULL, 'US9KpmYjCY3H5TdmySnh', NULL, '4c97cfcb3a3b0031f1a226d1dd4a2340a588e8ff7eb1950844ceb5e5be0f8024ffb0cb82a77b7d21645e84743ffa248f793e60b3d5263d46e4ab8e4793c7fc0b', 0, NULL, 'clayton', NULL, 'clayton@integrumtech.com')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-06-15 18:42:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering user_sessions/new
+Completed in 11ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2010-06-15 18:42:26) [POST]
+  Parameters: {"commit"=>"Login", "user_session"=>{"remember_me"=>"0", "login"=>"clayton", "password"=>"[FILTERED]"}, "action"=>"create", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (LOWER(`users`.login) = 'clayton') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:42:26', `perishable_token` = '4jtmLagg3y84HxOsqDei', `current_login_at` = '2010-06-16 01:42:26', `login_count` = 1, `current_login_ip` = '127.0.0.1', `last_request_at` = '2010-06-16 01:42:26' WHERE `id` = 5[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/account
+Completed in 53ms (DB: 1) | 302 Found [http://www.example.com/user_session]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-06-15 18:42:26) [GET]
+  Parameters: {"action"=>"show", "controller"=>"users"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = '5') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mUser Update (0.3ms)[0m   [0mUPDATE `users` SET `updated_at` = '2010-06-16 01:42:26', `perishable_token` = 'nVNN-BViyy0FLsEwCfWy', `last_request_at` = '2010-06-16 01:42:26' WHERE `id` = 5[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+Rendering users/show
+Completed in 23ms (View: 5, DB: 1) | 200 OK [http://www.example.com/account]
+
+
+Processing UserSessionsController#show (for 127.0.0.1 at 2010-06-15 18:42:26) [GET]
+  Parameters: {"action"=>"show", "controller"=>"user_sessions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, and new):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:78:in `click'
+  capybara (0.3.7) lib/capybara/session.rb:49:in `click_link'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `click_link'
+  spec/acceptance/signup_spec.rb:32
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:24:in `run_focussed'
+  /tmp/textmate-command-41136.rb:3
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.1ms)[0m   [0mROLLBACK[0m
