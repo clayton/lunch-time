@@ -20,3 +20,124 @@
   [4;36;1mSQL (37.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
   [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-15 18:14:12) [GET]
+
+ActionController::RoutingError (No route matches "/user_session/new" with {:method=>:get}):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:190:in `visit'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `visit'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `visit'
+  spec/acceptance/signup_spec.rb:10
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:24:in `run_focussed'
+  /tmp/textmate-command-40373.rb:3
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-15 18:14:22) [GET]
+
+ActionController::RoutingError (No route matches "/user_session/new" with {:method=>:get}):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:190:in `visit'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `visit'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `visit'
+  spec/acceptance/signup_spec.rb:10
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:24:in `run_focussed'
+  /tmp/textmate-command-40378.rb:3
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-15 18:14:42) [GET]
+
+ActionController::RoutingError (No route matches "/user_session/new" with {:method=>:get}):
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:226:in `get'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `send'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:195:in `process'
+  capybara (0.3.7) lib/capybara/driver/rack_test_driver.rb:190:in `visit'
+  (__FORWARDABLE__):3:in `__send__'
+  (__FORWARDABLE__):3:in `visit'
+  capybara (0.3.7) lib/capybara/dsl.rb:55:in `visit'
+  spec/acceptance/signup_spec.rb:10
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:37:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `chdir'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:36:in `run'
+  /Users/clayton/Library/Application Support/TextMate/Bundles/RSpec.tmbundle/Support/lib/spec/./spec/mate/runner.rb:14:in `run_file'
+  /tmp/textmate-command-40404.rb:3
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
